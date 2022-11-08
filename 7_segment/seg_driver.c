@@ -229,7 +229,7 @@ static int __init ModuleInit(void) {
 		goto Gpio17Error;
 	}
     
-    /* Set A~OP segments GPIO */
+    /* Set A~DP segments GPIO */
 	/* GPIO 21 init */
 	if (gpio_request(21, "rpi-gpio-21")) {
 		printk("Can not allocate GPIO 21\n");
